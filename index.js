@@ -96,6 +96,9 @@ responsive->
 userstate->
 validation->
 refresh->
+lockfile->
+folder stru
+
 */
 alert("Registration Successful!");
 
