@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
     <title>course Table</title>
-    <link rel="stylesheet" href="style.css"
+   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -46,14 +47,14 @@
     <form>
         <h1>Register Form</h1>
         Name:<br>
-        <input type="text" /><br><br>
+        <input type="text" required /><br><br>
         Password:<br>   
-        <input type="password"  /><br><br>
+        <input type="password" required /><br><br>
         Email ID:<br>
-        <input type="email" /><br><br>
+        <input type="email" required /><br><br>
         Gender:<br>
-       <input type="radio" name="gender"> Male
-       <input type="radio" name="gender"> Female<br><br><br>
+       <input type="radio" name="gender" required> Male
+       <input type="radio" name="gender" required> Female<br><br><br>
        Course:<br>
        <select>
             <option>HTML</option>
@@ -65,8 +66,25 @@
 
 
     </form>
+    <script src="index.js">
+    </script>
+
+    </body>
+</html>!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" name="course" onclick="selectOnlyOne(this)"> HTML
+    <input type="checkbox" name="course" onclick="selectOnlyOne(this)"> CSS
+    <input type="checkbox" name="course" onclick="selectOnlyOne(this)"> JavaScript
 
 </body>
-
-
 </html>
+
